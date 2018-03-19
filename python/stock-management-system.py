@@ -21,7 +21,7 @@ class StockMan():
 				self.history = history
 				
 		except Exception as e :
-			print(e)
+			# print(e)
 			self.update_database()
 
 		# restore states
