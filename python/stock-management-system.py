@@ -173,6 +173,8 @@ class StockMan():
 if __name__ == '__main__':
 	stockman = StockMan()
 	print("Stock management system v1.0.0\n")
+	print("How to use it ;\n")
+	
 	print("add [code] [name] - adds i number of name to stock\n")
 	print("delete [code] - deletes name from stock\n")
 	print("receive [code] [quantity] - adds i number of items to existing stock\n")
